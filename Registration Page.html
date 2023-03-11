@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Student Registration Form</h1>
+        <form action="">
+            <table cellspacing="5px" cellpadding="5px" style="width:40; background-color:cornsilk">
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" placeholder="Enter first name" style="height:30px; width:350px" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" placeholder="Enter last name" style="height:30px; width:350px" required></td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input type="e-mail" placeholder="username@gmail.com" style="height:30px; width:350px" required></td>
+                </tr>
+                <tr>
+                    <td>Mobile Num:</td>
+                    <td><input type="text" placeholder="only 10 digits allowed" style="height:30px; width:350px" required maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender:</label></td>
+                    <td>
+                        <input type="radio" name="gen" id="male">
+                        <label for="">Male</label>
+                        <input type="radio" name="gen" id="female">
+                        <label for="">Female</label>
+                        <input type="radio" name="gen" id="other">
+                        <label for="">Other</label>
+                    </td>
+                    <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date" style="height:30px; width:350px" required></td>
+                </tr>
+                <td>Address:</td>
+                <td>
+                    <textarea name="" id="" cols="45" rows="5" placeholder="Address must be in 50 characters"></textarea>
+                </td>
+                <tr>
+                    <td>City:</td>
+                    <td>
+                        <select style="height:30px; width:350px;">
+                         <option value="">---Select City---</option>
+                         <option value="">Surat</option>
+                         <option value="">Ahmedabad</option>
+                         <option value="">Khammam</option>
+                         <option value="">Waranagal</option>   
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Area Pin / Pincode</td>
+                    <td><input type="text" placeholder="000000" style="height:30px; width:350px" required maxlength="6"></td>
+                </tr>
+                <td>State:</td>
+                    <td>
+                        <select style="height:30px; width:350px;">
+                         <option value="">---Select State---</option>
+                         <option value="">Gujarat</option>
+                         <option value="">Telangana</option>
+                         
+                        </select>
+                    </td>
+                    <tr>
+                    <td>Qulification:</td>
+                    <td>
+                        <select style="height:30px; width:350px;">
+                         <option value="">---Select Qulification---</option>
+                         <option value="">10th</option>
+                         <option value="">12th</option>
+                         <option value="">Degree</option>
+                         
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Specialization:</td>
+                        <td>
+                            <div>
+                            <input type="checkbox" name="c1">
+                            <label for="">Computer Science</label>
+                            </div>
+                            <div>
+                            <input type="checkbox" name="c2">
+                            <label for="">Information Technology</label>
+                            </div>
+                            <div>
+                            <input type="checkbox" name="c3">
+                            <label for="">Computer Architecture</label>
+                            </div>
+                            <div>
+                            <input type="checkbox" name="c4">
+                            <label for="">Tele Communication</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password" placeholder="Enter password" style="height:30px; width:350px;" required></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="button" name="" id="" value="Registered" style="background-color:forestgreen; color:white; height:40px; width:120px">
+                        </td>
+                    </tr>
+
+
+                </tr>
+
+
+            </table>
+
+        </form>
+
+
+
+
+    </center>
+    
+</body>
+</html>
